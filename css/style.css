@@ -26,6 +26,36 @@ ul {
     overflow: hidden;
 }
 
+/* Загальні обнулення для всіх елементів */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Спеціальні обнулення для заголовків і параграфів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* Спеціальні обнулення для списків */
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+/* Зробити зображення блочними елементами */
+img {
+    display: block;
+}
+
+
 /* Header */
 .header-logo {
     font-family: "Raleway", sans-serif;
