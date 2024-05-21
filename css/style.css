@@ -60,10 +60,8 @@ img {
 /* Контейнер */
 .container {
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
-
 }
 
 /* Header */
@@ -76,7 +74,6 @@ img {
 .header-container {
   display: flex;
   width: 1158px;
-  margin: 0 auto;
   padding: 0 15px;
 }
 
@@ -144,8 +141,6 @@ img {
 
 /* first section */
 
-
-.header-nav-container {}
 
 .main-hero-section {
   background: #2e2f42;
