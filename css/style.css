@@ -69,8 +69,15 @@ img {
 /* Header */
 
 .header {
-  padding: 24px 156px;
+  padding: 24px;
+  border-bottom: 1px solid #e7e9fc
+}
 
+.header-container {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header-logo {
@@ -81,9 +88,18 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
-.header-nav-container {}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+}
 
 .header-span {
   color: #2e2f42;
@@ -95,7 +111,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-
+  padding: 24px 0;
 }
 
 .header-menu-item:hover,
@@ -106,7 +122,9 @@ img {
 
 /*---------------------------- address -----------------------------------*/
 .address {
-  font-style: normal
+  font-style: normal;
+  display: flex;
+  gap: 40px;
 }
 
 .address-item {
