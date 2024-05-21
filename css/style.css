@@ -55,11 +55,11 @@ img {
 /* Header */
 
 .header {
-  padding: 24px;
   border-bottom: 1px solid #e7e9fc
 }
 
 .header-container {
+  align-items: center;
   display: flex;
   width: 1158px;
   margin: 0 auto;
@@ -80,6 +80,7 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .header-menu {
@@ -92,6 +93,7 @@ img {
 }
 
 .header-menu-item {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -147,6 +149,9 @@ img {
   text-align: center;
   color: #ffffff;
   max-width: 496px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
 }
 
 .main-hero-btn {
@@ -163,6 +168,8 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .main-hero-btn:hover {
@@ -357,10 +364,11 @@ img {
   color: #f4f4fd;
 }
 
-.fooret-text {
+.footer-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
